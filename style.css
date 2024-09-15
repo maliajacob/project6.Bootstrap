@@ -1,0 +1,8 @@
+.background {
+    background-image: url(computerBkgrnd.jpg);
+    background-size: cover;
+}
+button {
+    border-radius: 40px;
+    border: none;
+}
