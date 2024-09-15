@@ -6,3 +6,35 @@ button {
     border-radius: 40px;
     border: none;
 }
+.heading {
+    font-size: 3rem;
+    font-weight: bold;
+}
+footer {
+    font-size: .6rem;
+}
+@media only screen and (min-width: 650px) {
+    .heading {
+        font-size: 4rem; 
+        font-weight: bolder;
+    }
+    footer {
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .heading {
+        font-size: 6rem; 
+        font-weight: bolder;
+    }
+    .subheading {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    footer {
+        font-weight: 700;
+    }
+}
